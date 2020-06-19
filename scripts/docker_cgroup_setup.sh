@@ -2,7 +2,7 @@
 
 set -e
 
-. ~/anaconda3/etc/profile.d/conda.sh
+. /opt/conda/etc/profile.d/conda.sh
 conda activate mlperf
 
 mount -t tmpfs cgroup_root /sys/fs/cgroup
